@@ -1,0 +1,260 @@
+@font-face {
+  font-family: "AvenirLTStd-Black";
+  src: url("fonts/AvenirLTStd-Black.woff2") format("woff2"),
+    url("fonts/AvenirLTStd-Black.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AvenirLTStd-Book";
+  src: url("fonts/AvenirLTStd-Book.woff2") format("woff2"),
+    url("fonts/AvenirLTStd-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AvenirLTStd-Roman";
+  src: url("fonts/AvenirLTStd-Roman.woff2") format("woff2"),
+    url("fonts/AvenirLTStd-Roman.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+}
+.colorTexto1 {
+  color: #2b4bc9;
+}
+
+.colorTexto2 {
+  color: #1f3e72;
+}
+
+.colorTexto3 {
+  color: #6d7b93;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  z-index: 5;
+}
+.pegado {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+/* .pegado + .contenido {
+  padding-top: 60px;
+} */
+.tituloNav {
+  font-family: "AvenirLTStd-Black";
+  font-size: 30pt;
+  display: inline-block;
+}
+nav > ul {
+  font-family: "AvenirLTStd-Book";
+  font-weight: 600;
+  font-size: 20pt;
+  display: inline-block;
+  background-color: rgba();
+}
+
+li {
+  /*float: left;*/
+  display: inline-block;
+  text-align: center;
+  padding: 16px;
+  margin: 16px;
+  text-decoration: none;
+
+}
+
+a, .hoax{
+  cursor: pointer;
+}
+
+.hoax {
+  box-shadow: 0.5px 0.5px 10px rgb(0, 0, 0, 0.3);
+  height: 60px;
+  width: 220px;
+  font-size: 16pt;
+  font-family: "AvenirLTStd-Black";
+  color: white;
+  background-color: #2b4bc9;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.seccIzquierda {
+  /*display: inline-block;*/
+  width: 50%;
+  float: left;
+}
+
+.secctionFull{
+  /*display: inline-block;*/
+  width: 100%;
+  float: left;
+}
+
+
+.parrafos {
+  padding-left: 30%;
+}
+
+.superParrafo {
+  font-size: 60pt;
+  font-family: "AvenirLTstd-Black";
+}
+.parrafito {
+  font-family: "AvenirLTStd-Book";
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.textoSpan{
+  font-family: "AvenirLTStd-Book";
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.fbold{
+font-family: "AvenirLTStd-Black";
+}
+.fbook{
+  font-family: "AvenirLTStd-Book";
+}
+/* .contenido {
+  margin-top: -255px;
+}
+ */
+
+/*********/
+/*iconos*/
+/*********/
+
+.icono{
+  display:inline-block; position:relative; top:12px;
+  margin-right: 20px;
+  margin-left: 20px;
+ background-color: #ccd7ffb6;
+ border-radius: 5px;
+}
+
+
+/*******/
+/*barra de schedule*/
+.horario{
+  position: absolute;
+  top: 1010px;
+}
+.bar-schedule{
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0.5px 0.5px 10px rgb(0, 0, 0, 0.3);
+  border-radius: 4px;
+  max-width: 1200px;
+  position:relative;
+  left:250px;
+  height: 160px;
+}
+
+.dSchedule{
+  
+  width: auto;
+  display: inline-block;
+}
+
+.barraLabs{
+  height: 200px;
+}
+
+.imgBarElement{
+  float: left;
+  margin-right: 125px;
+  margin-left: 25px;
+  height: 122px;
+}
+
+.cajita{
+  box-shadow: 0.5px 0.5px 2px rgb(0, 0, 0, 0.2);
+  width: 375px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10%;
+  
+  display: block;
+}
+
+.cajita2{
+  float: left;
+  width: 280px;
+  margin-left:100px;
+}
+
+
+.cajInt{
+  width: 42%;
+  margin : 11px;
+  box-shadow: 0.5px 0.5px 2px rgba(12, 41, 95, 0.2);
+  height: 145px;
+}
+
+.hoaxMini{
+  box-shadow: 0.5px 0.5px 10px rgb(0, 0, 0, 0.3);
+  height: 35px;
+  width: 195px;
+  font-size: 10pt;
+  font-family: "AvenirLTStd-Black";
+  color: white;
+  background-color: #2b4bc9;
+  border-radius: 5px;
+  border-color: transparent;
+  display: block;
+
+  top: -31px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.hoaxWhite{
+  box-shadow: 0.5px 0.5px 10px rgb(0, 0, 0, 0.3);
+  height: 35px;
+  width: 195px;
+  font-size: 10pt;
+  font-family: "AvenirLTStd-Black";
+  color: #2b4bc9;
+  background-color: #ccd7ffb6;
+  border-radius: 5px;
+  border-color: transparent;
+  display: block;
+  top: -31px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.cajInt>.pchiki{
+  font-size: 10pt;
+  display: inline-block;
+  position: relative;
+  top: -30px;
+  left: 87px;
+}
+
+#footer{
+  background-color: #caddff;
+  height: 250px;
+  width: 100%;
+}
+
+.cajitasFooter3{
+  width: 10%;
+}
